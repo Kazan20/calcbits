@@ -1,0 +1,15 @@
+[package]
+name = "calcbits"
+version = "0.1.0"
+edition = "2024"
+authors = ["Ariel Zvinowanda <you@example.com>"]
+description = "Small utilities for working with downloaded binary data: formatting, timing and CLI progress helpers."
+license = "MIT"
+repository = "" # add your repository URL before publishing
+keywords = ["progress", "download", "hex", "octal", "cli", "util"]
+
+[dependencies]
+indicatif = "0.17"
+reqwest = { version = "0.11", features = ["stream", "gzip", "brotli", "deflate"] }
+futures-util = "0.3"
+tokio = { version = "1.28", features = ["rt-multi-thread", "macros", "fs"] }

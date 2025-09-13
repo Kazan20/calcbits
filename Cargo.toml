@@ -7,6 +7,7 @@ description = "Small utilities for working with downloaded binary data: formatti
 license = "MIT"
 repository = "https://github.com/Kazan20/calcbits" # add your repository URL before publishing
 keywords = ["progress", "download", "hex", "octal", "cli", "util", "bits"]
+readme = "README.md"
 
 [dependencies]
 indicatif = "0.17"

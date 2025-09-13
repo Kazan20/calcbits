@@ -5,8 +5,8 @@ edition = "2024"
 authors = ["Ariel Zvinowanda <you@example.com>"]
 description = "Small utilities for working with downloaded binary data: formatting, timing and CLI progress helpers."
 license = "MIT"
-repository = "" # add your repository URL before publishing
-keywords = ["progress", "download", "hex", "octal", "cli", "util"]
+repository = "https://github.com/Kazan20/calcbits" # add your repository URL before publishing
+keywords = ["progress", "download", "hex", "octal", "cli", "util", "bits"]
 
 [dependencies]
 indicatif = "0.17"

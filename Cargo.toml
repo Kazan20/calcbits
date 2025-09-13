@@ -1,6 +1,6 @@
 [package]
 name = "calcbits"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["Ariel Zvinowanda <taperazvi@gmail.com>"]
 description = "Small utilities for working with downloaded binary data: formatting, timing and CLI progress helpers."
